@@ -1,13 +1,24 @@
-[class^= "container"], [class^= "col"] {
+/* [class^= "container"], [class^= "col"] {
   background-color: rgba(165, 42, 42, 0.662);
   border: 1px solid black;
-}
+} */
 
 header {
   height: 80px;
   background-color:#2c3f50;
+  color: white;
 }
 
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0 15px;
+}
 .jumbotron {
   height: 450px;
   background-color: #1abc9d;
@@ -31,12 +42,14 @@ header {
 .portfolio .col {
   height: 200px;
   border-radius: 10px;
+  border: 1px solid black;
 }
 
 .about {
   background-color: #1abc9d;
-  height: 300px;
+  /* height: 300px; */
   color: white;
+  padding: 25px 0;
 }
 
 .download-btn {
@@ -47,7 +60,7 @@ header {
   width: fit-content;
 }
 
-.about-me {
+.contact-me {
   height: 350px;
 }
 
@@ -57,6 +70,21 @@ header {
 }
 
 .em-container .line:not(:first-of-type) {
-  width: 75%;
+  width: 100%;
   margin: 0;
+}
+
+.top span {
+  color: #1abc9d;
+}
+
+footer.top {
+  background-color: #3b546d;
+  color: white;
+}
+
+footer.bottom {
+  height: 80px;
+  color: white;
+  background-color: #2c3f50;
 }

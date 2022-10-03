@@ -13,21 +13,34 @@
 <body>
   
 
+  <!-- HEADER -->
+
   <header class="d-flex align-items-center">
 
     <div class="container">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-4">
-          <h1>Start Bootstrap</h1>
+          <h2>Start Bootstrap</h2>
         </div>
-        <div class="col-2 offset-6">Hamb</div>
+        <div class="col-2 offset-6 d-md-none">Hamb</div>
+        <div class="col-4 offset-4 d-none d-md-flex align-items-center">
+          <ul class="d-flex">
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
   </header>
 
 
+
+
   <main>
+
+    <!-- JUMBOTRON -->
 
     <section class="jumbotron d-flex flex-column justify-content-center">
 
@@ -36,7 +49,7 @@
         <div class="row justify-content-center">
 
           <div class="col d-flex justify-content-center">
-            <div class="smile"></div>∏
+            <div class="smile"></div>
           </div>
 
         </div>
@@ -50,7 +63,7 @@
     </section>
 
 
-
+    <!-- PORTFOLIO -->
 
 
     <section class="portfolio">
@@ -58,7 +71,7 @@
       <h2 class="text-center">PORTFOLIO</h2>
       <div class="line mt-2 mb-4"></div>
       <div class="container">
-        <div class="row row-cols-1">
+        <div class="row row-cols-1 pb-4">
 
           <div class="col col-md-6 col-xl-4 d-flex justify-content-center align-items-center">1</div>
           <div class="col col-md-6 col-xl-4 d-flex justify-content-center align-items-center">2</div>
@@ -72,20 +85,27 @@
 
     </section>
 
+    <!-- ABOUT -->
+
     <section class="about">
+
       <h2 class="text-center mt-4">ABOUT</h2>
       <div class="line mt-2"></div>
-      <div class="container">
+      <div class="em-container">
 
-        <div class="row row-cols-1 row-cols-md-2">
-
-          <div class="col">
-            <p>Freelancer is a free bootstraop them created by Start Bottstrap. The download includes the comlete souce files including HTML, CSS, and Javascript as well as optional LESS stylesheets for easy customization.</p>
+        <div class="container-fluid">
+  
+          <div class="row row-cols-1 row-cols-md-2">
+  
+            <div class="col">
+              <p>Freelancer is a free bootstraop them created by Start Bottstrap. The download includes the comlete souce files including HTML, CSS, and Javascript as well as optional LESS stylesheets for easy customization.</p>
+            </div>
+            <div class="col">
+              <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            </div>
+  
           </div>
-          <div class="col">
-            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-          </div>
-
+  
         </div>
 
       </div>
@@ -97,7 +117,11 @@
 
     </section>
 
-    <section class="about-me">
+
+    <!-- CONTACT ME -->
+
+    <section class="contact-me">
+
       <div class="em-container">
 
         <div class="container-fluid">
@@ -105,7 +129,7 @@
           <h2 class="text-center mt-4">CONTACT ME</h2>
     
           <div class="line mt-2 mb-5"></div>
-          
+
           <h4>Name</h4>
           <div class="line mt-2"></div>
           <h4>Email Address</h4>
@@ -120,6 +144,47 @@
       </div>
 
     </section>
+
   </main>
+
+
+    <!-- FOOTER TOP -->
+
+
+  <footer class="top">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3">
+
+        <div class="col text-center">
+           <h4>LOCATION</h4>
+           <p>2215 John Daniel Drive Clark, MO 54243</p>
+        </div>
+
+        <div class="col text-center">
+          <h4>AROUND THE WEB</h4>
+          <div class="socials">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+
+        <div class="col text-center">
+          <h4>ABOUT FREELANCER</h4>
+          <p>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>.</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- FOOTER BOTTOM -->
+
+  <footer class="bottom pt-4">
+    <p class="text-center">Copyright &copy; Your Website 2019</p>
+  </footer>
+
+
 </body>
 </html>
