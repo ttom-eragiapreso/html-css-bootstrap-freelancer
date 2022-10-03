@@ -9,13 +9,25 @@ header {
 }
 
 .jumbotron {
-  height: 500px;
+  height: 450px;
   background-color: #1abc9d;
 }
 
 .smile {
-  width: 100px;
+  width: 200px;
   aspect-ratio: 1/1;
   background-color: red;
   border-radius: 50%;
+}
+
+.line {
+  width: 50%;
+  margin: 0 auto;
+  height: 2px;
+  background-color: black;
+}
+
+.portfolio .col {
+  height: 200px;
+  border-radius: 10px;
 }
