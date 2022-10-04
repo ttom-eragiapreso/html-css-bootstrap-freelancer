@@ -1,8 +1,5 @@
-/* [class^= "container"], [class^= "col"] {
-  background-color: rgba(165, 42, 42, 0.662);
-  border: 1px solid black;
-} */
-  /* PROPRIETA' CUSTOM PER OVERWRITE */
+
+/* PROPRIETA' CUSTOM PER OVERWRITE & GENERAL */
 
 .em-container {
   width: 55%;
@@ -34,6 +31,11 @@
   border: none;
 }
 
+img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
 /* HEADER */
 
 header {
@@ -46,16 +48,12 @@ header {
 /* JUMBOTRON */
 
 .jumbotron {
-  height: 450px;
   background-color: #1abc9d;
   color: white;
 }
 
 .smile {
-  width: 200px;
-  aspect-ratio: 1/1;
-  background-color: red;
-  border-radius: 50%;
+  width: 250px;
 }
 
 .line {
@@ -68,9 +66,7 @@ header {
 /* PORTFOLIO */
 
 .portfolio .col {
-  height: 200px;
   border-radius: 10px;
-  border: 1px solid black;
 }
 
 /* ABOUT */
