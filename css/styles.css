@@ -22,6 +22,18 @@
   color: white;
 }
 
+.form-control.em-form-control {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+.btn.em-btn, .btn.em-btn:hover {
+  background-color: #1abc9d;
+  border: none;
+}
+
 /* HEADER */
 
 header {
@@ -47,10 +59,10 @@ header {
 }
 
 .line {
-  width: 50%;
+  width: 20%;
   margin: 0 auto;
   height: 2px;
-  background-color: black;
+  background-color: white;
 }
 
 /* PORTFOLIO */
@@ -82,8 +94,12 @@ header {
 /* CONTACT ME */
 
 .contact-me {
-  height: 350px;
+  /* height: 350px; */
 }
+
+
+
+
 
 
 /* FOOTER */
@@ -97,8 +113,27 @@ footer.top {
   color: white;
 }
 
+footer.top p {
+  margin-bottom: 0;
+}
+
 footer.bottom {
-  height: 80px;
   color: white;
   background-color: #2c3f50;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.circle-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  aspect-ratio: 1/1;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 0 3px;
 }
